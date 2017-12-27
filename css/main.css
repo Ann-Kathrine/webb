@@ -1,26 +1,23 @@
 body{
-    padding: 5;
+    margin: 5px 5px 5px 5px;
 }
 main{
     float: left;
-
+    height: 100%;
 }
 aside{
+    float: right;
     width: 20%;
     height: 100%;
-    background-color:black;
+    background-color:blue;
 
 }
-aside#left{
+section{
+    width: 20%;
+    height: 100%;
     float: left;
     background-color: #998877; 
-
 }
-aside#right{
-    float: right;
-    background-color: purple;
-}
-
 
 footer {
     position: fixed;
@@ -38,13 +35,13 @@ nav{
 	z-index:1;
     width: 100%;
 	float: left;
-    background: #999999
+    background: #999999;  
 }
 /* Menu Styles */
 
 .third-level-menu
 {
-    /*position: absolute;*/
+    position: absolute;
     top: 0;
     right: -150px;
     width: 150px;
@@ -63,7 +60,7 @@ nav{
 
 .second-level-menu
 {
-    /*position: absolute;*/
+    position: absolute;
     top: 30px;
     left: 0;
     width: 150px;
@@ -75,7 +72,7 @@ nav{
 
 .second-level-menu > li
 {
-    /*position: relative;*/
+    position: relative;
     height: 30px;
     background: #999999;
 }
@@ -91,8 +88,7 @@ nav{
 
 .top-level-menu > li
 {
-    position: sticky;
-    /*position: relative;*/
+    position: relative;
     float: left;
     height: 30px;
     width: 150px;
