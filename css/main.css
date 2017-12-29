@@ -1,32 +1,30 @@
-body{
-    margin: 5px 5px 5px 5px;
+html,body { height: 100%;}
+.container{
+    background-color: #1bbec4;
+    width: 100%;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+header{
+    background-color: #999999;
 }
 main{
     float: left;
-    height: 100%;
+    width:59%;
+    margin:2px;   
 }
 aside{
     float: right;
     width: 20%;
-    height: 100%;
     background-color:blue;
-
 }
 section{
     width: 20%;
-    height: 100%;
     float: left;
-    background-color: #998877; 
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
+    background-color: #998877;
+    position: static; 
 }
 
 nav{
@@ -117,3 +115,22 @@ nav{
     line-height: 30px;
 }
 .top-level-menu a:hover { color: #000000; }
+
+@media only screen and (max-width: 1024px) {
+    main { margin-left: 0; }
+    h1 { font-size: 120%; color: #ff8800; }
+    p { font-size: 90%; }
+    section { display: none;}
+    figure { display: none;}
+    img{display: none;}
+}
+
+@media only screen and (max-width: 768px) {
+    main { margin-left: 0;}
+    h1 { font-size: 120%; color: #ff8800; }
+    p { font-size: 90%; }
+    section { display: none;}
+    aside {display: none;}
+    figure { display: none;}
+    img{display: none;}
+}

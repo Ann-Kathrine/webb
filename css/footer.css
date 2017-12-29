@@ -1,0 +1,21 @@
+footer{
+    background-color:#D999FA;
+    height: 160px;
+    padding: 0;
+	clear: both;
+	position: relative;
+}
+
+#left{
+	float:left;
+	max-width: 30%;
+	height: auto;
+}
+#center{
+    text-align:center;
+}
+#right{
+	float: right;
+	width: 40%;
+	height: 90px;
+}
