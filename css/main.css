@@ -1,30 +1,33 @@
-html,body { height: 100%;}
+html,body { min-height: 100%;
+
+}
 .container{
     background-color: #1bbec4;
     width: 100%;
-    height: 100%;
+    min-height:100%; 
 }
-* {
-    box-sizing: border-box;
-}
+
 header{
     background-color: #999999;
 }
 main{
     float: left;
     width:59%;
-    margin:2px;   
+      
 }
 aside{
     float: right;
     width: 20%;
     background-color:blue;
+     
+    
 }
 section{
     width: 20%;
     float: left;
     background-color: #998877;
     position: static; 
+      
 }
 
 nav{
