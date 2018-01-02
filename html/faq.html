@@ -41,6 +41,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Reservera biljetter</a></li>
+                    <li><a href="front.html">Hem</a></li>
                 </ul>
             </nav>
             <br>
@@ -63,7 +64,17 @@
                         <br>resterande kostnader finns beskrivet under under respektive evenemang.</dd>   
                 </dl>
                 <h2>Skicka en fråga till Lundakarnevalen:</h2>
-                formulär med namn, epost och fylla i fråga, samt skicka knapp. 
+                <form method="post">
+                    <label for="name">Namn:</label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Epost:</label>
+                    <input type="email" name="email" id="email">
+                    <label for="question">Fråga:</label>
+                    <textarea name="question" id="question" cols="25" rows="10"></textarea>
+                    <input id="faqSubmit" type="submit" value="Skicka frågan">
+                </form>
+                <div class="floatleft"></div>
+
             </main>
 
             

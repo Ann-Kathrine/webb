@@ -30,7 +30,25 @@ section{
     position: static; 
       
 }
+form label{
+    margin-top: 10px; 
+    text-align: right;
+    width: 100px;
+    float: left;
+    clear:left;
+    padding-right:10px;
+}
 
+input, textarea {
+    margin-top: 10px;
+    display:block;
+}
+#faqSubmit{
+    margin-left: 110px;
+}
+.floatleft{
+    float: left;
+}
 nav{
     position: sticky;
 	top: 0px;
